@@ -1,0 +1,26 @@
+CodePacker
+Copyright 2026 Pintér Szabolcs
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The standalone executable (dist/CodePacker.exe) bundles third-party software,
+used unmodified:
+
+* Qt for Python (PySide6-Essentials, shiboken6) and the Qt 6 libraries
+  Copyright (C) The Qt Company Ltd. and other contributors.
+  Licensed under the GNU Lesser General Public License, version 3 (LGPL-3.0).
+  Source code: https://code.qt.io/cgit/pyside/pyside-setup.git/ and https://code.qt.io/
+  You may rebuild the executable against your own build of these libraries with
+  build.bat (see README.md).
+
+* PyInstaller bootloader
+  Copyright (c) PyInstaller Development Team.
+  Licensed under the GNU General Public License, version 2 or later, with the
+  PyInstaller bootloader exception, which allows the bundled executable to be
+  distributed under any licence.
+  Source code: https://github.com/pyinstaller/pyinstaller
+
+* Python
+  Copyright (c) Python Software Foundation.
+  Licensed under the Python Software Foundation License.
+  Source code: https://github.com/python/cpython

@@ -1,0 +1,6 @@
+# Development and CI tools (pinned), on top of the runtime dependencies.
+-r requirements.txt
+pytest==9.1.1
+pytest-qt==4.5.0
+pip-audit==2.10.1
+pyinstaller==6.22.3

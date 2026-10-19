@@ -1,0 +1,47 @@
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.spec.bak
+*.egg-info/
+
+# virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# secrets - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# test, coverage and linter caches
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# logs
+*.log
+
+# bundles written by the app
+*_codepacker/
+*_combined*.md
+*_zip.b64.txt
+_temp_do_not_touch.zip
+
+# local agent workspace
+.superpowers/

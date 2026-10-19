@@ -1,0 +1,2 @@
+# Runtime dependencies (pinned). Development tools live in requirements-dev.txt.
+PySide6-Essentials==6.12.0
